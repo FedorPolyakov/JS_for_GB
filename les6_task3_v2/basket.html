@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            Basket
+            <table class="table">
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Имя</th>
+                    <th scope="col">Цена</th>
+                    <th scope="col">Количество</th>
+                    <th scope="col"></th>
+                </tr>
+                <tbody></tbody>
+                <tr>
+                    <th colspan="2" scope="row">Итого:</th>
+                    <td colspan="3">
+                        <span class="total">0</span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="product">
+            <div>Product 1</div>
+            <img src="https://placeimg.com/160/90/animals" alt="Product1">
+            <div>
+                <span class="productPrice">Price: 100$</span>
+            </div>
+            <button type="button" class="toBasketBtn" data-id="1" data-price="100" data-name="product 1">
+                Buy
+            </button>
+        </div>
+        <div class="product">
+            <div>Product 2</div>
+            <img src="https://placeimg.com/160/90/arch" alt="Product2">
+            <div>
+                <span class="productPrice">Price: 50$</span>
+            </div>
+            <button type="button" class="toBasketBtn" data-id="2" data-price="50" data-name="product 2">
+                Buy
+            </button>
+        </div>
+        <div class="product">
+            <div>Product 3</div>
+            <img src="https://placeimg.com/160/90/tech" alt="Product3">
+            <div>
+                <span class="productPrice">Price: 150$</span>
+            </div>
+            <button type="button" class="toBasketBtn" data-id="3" data-price="150" data-name="product 3">
+                Buy
+            </button>
+        </div>
+    </div>
+    <!-- <script src="les6_task3.js"></script> -->
+    <script src="newscript.js"></script>
+</body>
+
+</html>
