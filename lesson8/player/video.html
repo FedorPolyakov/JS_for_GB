@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        Текущее время: <span class="currentTime">0</span> 
+    </div>
+    <div class="player">
+        <video src="video2.mp4"></video>
+        <input type="range" class="timing" value="0" step="0.001">
+        
+    </div>
+    
+    <i class="fas fa-play" id='play'></i>
+    <i class="fas fa-pause notavaliable" id='pause'></i>
+    <i class="fas fa-backward"></i>
+    <i class="fas fa-forward"></i>
+    <i class="fas fa-volume-off hidden"></i>
+    <i class="fas fa-volume-up"></i>
+    <i class="fas fa-volume-down hidden"></i>
+
+    <input type="range" class="volume" min="0" value="0.5" max="1" step="0.01">
+    <i class="fas fa-volume-mute"></i>
+
+    <script src="player.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
